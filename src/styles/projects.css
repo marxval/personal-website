@@ -1,0 +1,115 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  position: relative;
+  background-color: #11011eaa;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card img {
+  max-width: 70vw;
+  max-height: 400px;
+}
+
+.card-content {
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.logos {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0;
+  margin-top: -45px;
+}
+.logos-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  height: 20px;
+}
+.logos * {
+  margin-left: 25px;
+}
+
+.card-reveal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #11011e;
+  padding: 15px;
+  overflow-y: scroll;
+  height: 100%;
+  top: 0;
+  transition: 0.5s;
+  border-radius: 10px;
+  transform: translateY(100%);
+}
+
+.card-reveal-all {
+  transform: translateY(0px);
+}
+
+.borderIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.skills {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  font-size: 16px;
+}
+
+.skills span {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.skills ul {
+  padding: 10px;
+  text-align: center;
+}
+
+.card .description {
+  padding: 5px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 18px;
+}
+.card-reveal .close {
+  width: 100%;
+  text-align: right;
+}
+.card h3 {
+  color: white;
+  font-size:20px;
+}
+
+.card a {
+  color: #00ddff;
+}
+
+.icon {
+  margin: 5px;
+}
